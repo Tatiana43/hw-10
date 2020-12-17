@@ -45,9 +45,9 @@ public class RadioTest {
     public void shouldCheckNextStation(){
         Radio radio = new Radio();
 
-        radio.setCurrentStation(3);
+        radio.setCurrentStation(4);
         radio.nextStation();
-        assertEquals(4, radio.getCurrentStation());
+        assertEquals(5, radio.getCurrentStation());
     }
 
     @Test
